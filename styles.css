@@ -96,12 +96,12 @@ a {
     position: relative;
     margin-top: 28%;
     line-height: 110%;
-    padding-left: 20%;
+    padding-left: 14rem;
 }
 .title-description {
     margin-top: 80px;
     font-size: 21px;
-    padding-left: 20%;
+    padding-left: 14rem;
     /* text-align: center; */
 }
 .spacer-small {
