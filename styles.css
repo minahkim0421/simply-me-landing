@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background-color: #5096ec;
+    background-color: #5dabf4;
 }
 a {
     color: white;
@@ -96,12 +96,12 @@ a {
     position: relative;
     margin-top: 28%;
     line-height: 110%;
-    padding-left: 14rem;
+    padding-left: 14.5rem;
 }
 .title-description {
     margin-top: 80px;
     font-size: 21px;
-    padding-left: 14rem;
+    padding-left: 14.5rem;
     /* text-align: center; */
 }
 .spacer-small {
@@ -191,7 +191,7 @@ a {
     border-radius: 60px;
     height: 1400px;
     width: 100vw;
-    background: center / contain no-repeat url(assets/images/choose-outfits-1.svg);
+    background: center / contain no-repeat url(assets/images/choose-outfits-2.svg);
     display: flex;
     justify-content: space-between;
     
@@ -271,4 +271,5 @@ background-color: #ff6c39;
         display: block;
     }
 }
+
 
