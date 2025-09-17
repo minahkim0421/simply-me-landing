@@ -121,3 +121,12 @@ class ImageSlideshow {
         document.addEventListener('DOMContentLoaded', () => {
             new ImageSlideshow();
         });
+
+
+function playaudio() {
+            var audio = document.getElementById("lindaAudio");
+            audio.play().catch(function(error) {
+                console.log("Audio play failed:", error);
+                alert("Could not play audio. This might be due to browser autoplay policy or missing audio file.");
+            });
+        }
