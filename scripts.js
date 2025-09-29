@@ -6,8 +6,9 @@ class ImageSlideshow {
                     { src: 'assets/images/process-2.jpg', alt: 'Process photo 2' },
                     { src: 'assets/images/process-3.jpg', alt: 'Process photo 3' },
                     { src: 'assets/images/process-4.jpg', alt: 'Process photo 4' },
-                    // { src: 'https://picsum.photos/800/500?random=5', alt: 'Process photo 5' },
-                    // { src: 'https://picsum.photos/800/500?random=6', alt: 'Process photo 6' }
+                    { src: 'assets/images/process-photo-1.jpg', alt: 'Process photo 5' },
+                    { src: 'assets/images/process-photo-2.jpg', alt: 'Process photo 6' },
+                    { src: 'assets/images/process-photo-3.jpg', alt: 'Process photo 7' }
                 ];
 
                 this.currentIndex = 0;
