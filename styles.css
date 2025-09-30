@@ -127,15 +127,17 @@ a {
 .meet-linda {
     text-align: center;
 }
+
 .linda-title-1 {
-font-size: 68px; 
-text-align: center; 
-color:#5096ec; 
-padding-left: 15%;
+    font-size: 68px;
+    text-align: center;
+    color: #5096ec;
+    padding-left: 15%;
 }
+
 .linda-title-2 {
-    font-size: 80px; 
-    color:#ff6c39;
+    font-size: 80px;
+    color: #ff6c39;
 }
 
 .linda-section {
@@ -150,8 +152,9 @@ padding-left: 15%;
     /* padding-bottom: 500px; */
     min-height: 700px;
 }
+
 .item-linda {
-    height: 730px; 
+    height: 730px;
     margin-left: -100px;
 }
 
@@ -164,6 +167,20 @@ padding-left: 15%;
     padding-left: 20px;
     flex-wrap: wrap;
     text-wrap: wrap;
+    /* font size property */
+    font-size: 18px;
+    line-height: 140%; 
+    padding-right: 20px;
+}
+
+.linda-text-1 {
+    font-size: 52px; 
+    line-height: 110%;
+}
+
+.linda-text-2 {
+    font-size: 76px; 
+    line-height: 80%;
 }
 
 .container-middle {
@@ -182,7 +199,7 @@ padding-left: 15%;
     /* padding: 20px; */
     width: 100vw;
     background: center / contain no-repeat url(assets/images/founder-story.png);
-    
+
 }
 
 .container-bottom {
@@ -204,6 +221,17 @@ padding-left: 15%;
 
 .spacer {
     height: 700px;
+}
+
+.journey-title-1 {
+    font-size: 52px; 
+    color:#5096ec; 
+    text-align: center; 
+    padding-top: 80px;
+}
+.journey-title-2 {
+    font-size: 72px; 
+    color:#ff6c39;
 }
 
 .process-img-grid {
@@ -340,13 +368,13 @@ padding-left: 15%;
 }
 
 .download-template-box {
-   width: 500px; 
-    height: auto; 
+    width: 500px;
+    height: auto;
 }
 
 .doll-template-box {
-    width: 500px; 
-    height: auto; 
+    width: 500px;
+    height: auto;
     padding-top: 500px;
 }
 
@@ -400,6 +428,15 @@ input[type="text"] {
     justify-content: center;
 }
 
+.footer-text {
+    display: grid; 
+    grid-template-columns: 1fr 5fr; 
+    grid-template-rows: 1fr 1fr; 
+    row-gap: 13px; 
+    align-self: center; 
+    justify-self: center;
+}
+
 .small-width-browser {
     font-size: 18px;
     text-wrap: wrap;
@@ -416,7 +453,7 @@ input[type="text"] {
 
 /* section end */
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
     .logo-top {
         top: 45px;
         width: 130px;
@@ -427,12 +464,16 @@ input[type="text"] {
         width: 90px;
         font-size: 16px;
     }
+
     .decorations {
         display: none;
     }
+    .learnmore-button {
+        padding-top: 150px;
+    }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 850px) {
     .logo-top {
         top: 45px;
         width: 130px;
@@ -442,6 +483,12 @@ input[type="text"] {
         top: 45px;
         width: 90px;
         font-size: 16px;
+    }
+    .spacer {
+        height: 500px;
+    }
+    .spacer-small {
+        height: 100px;
     }
 
     .container-top {
@@ -454,39 +501,81 @@ input[type="text"] {
     .learnmore-button {
         opacity: 0;
     }
+
     .meet-linda {
         padding-top: 200px;
     }
+
     .linda-title-1 {
         font-size: 55px;
         padding-left: 0;
     }
+
     .linda-title-2 {
         font-size: 70px;
     }
+
     .meet-linda-contents {
         flex-direction: column;
         min-height: 1000px;
-        padding-bottom: 100px; 
+        padding: 40px;
+        text-align: center;
+        /* padding-bottom: 100px; */
     }
+
     .item-linda {
         height: 500px;
         padding-top: 50px;
         margin-left: 0;
     }
+
     .linda-text {
-        padding: 40px;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 16px;
     }
+    .linda-text-1 {
+        font-size: 42px;
+    }
+    .linda-text-2 {
+        font-size: 60px;
+    }
+
+    audio {
+        padding-left: 20%;
+    }
+
+    .journey-title-1 {
+        font-size: 42px;
+    }
+    .journey-title-2 {
+        font-size: 60px;
+        line-height: 100%;
+    }
+
+    .journey-description {
+        text-align: center;
+    }
+
+    .profile-block {
+        background: center / contain no-repeat url(assets/images/founder-story-mobile.png);
+    }
+
     .container-rounded {
         height: 900px;
     }
+
     .doll-template-box {
         width: 80%;
         padding-top: 350px;
     }
+
     .download-template-box {
         max-width: 280px;
     }
+    .footer {
+        background: center / contain no-repeat url(assets/images/footer-bg.png);
+    }
 
-    
+
 }

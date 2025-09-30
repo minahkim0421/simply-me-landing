@@ -2,13 +2,13 @@ class ImageSlideshow {
             constructor() {
                 // Sample images - replace with your own image URLs
                 this.images = [
-                    { src: 'assets/images/process-1.jpg', alt: 'Process photo 1' },
-                    { src: 'assets/images/process-2.jpg', alt: 'Process photo 2' },
-                    { src: 'assets/images/process-3.jpg', alt: 'Process photo 3' },
+                    { src: 'assets/images/process-photo-1.jpg', alt: 'Process photo 1' },
+                    { src: 'assets/images/process-photo-2.jpg', alt: 'Process photo 2' },
+                    { src: 'assets/images/process-photo-3.jpg', alt: 'Process photo 3' },
                     { src: 'assets/images/process-4.jpg', alt: 'Process photo 4' },
-                    { src: 'assets/images/process-photo-1.jpg', alt: 'Process photo 5' },
-                    { src: 'assets/images/process-photo-2.jpg', alt: 'Process photo 6' },
-                    { src: 'assets/images/process-photo-3.jpg', alt: 'Process photo 7' }
+                    // { src: 'assets/images/process-photo-1.jpg', alt: 'Process photo 5' },
+                    // { src: 'assets/images/process-photo-2.jpg', alt: 'Process photo 6' },
+                    // { src: 'assets/images/process-photo-3.jpg', alt: 'Process photo 7' }
                 ];
 
                 this.currentIndex = 0;
