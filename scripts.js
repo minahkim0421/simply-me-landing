@@ -5,7 +5,7 @@ class ImageSlideshow {
                     { src: 'assets/images/process-photo-1.jpg', alt: 'Process photo 1' },
                     { src: 'assets/images/process-photo-2.jpg', alt: 'Process photo 2' },
                     { src: 'assets/images/process-photo-3.jpg', alt: 'Process photo 3' },
-                    { src: 'assets/images/process-4.jpg', alt: 'Process photo 4' },
+                    { src: 'assets/images/process-photo-4.png', alt: 'Process photo 4' },
                     // { src: 'assets/images/process-photo-1.jpg', alt: 'Process photo 5' },
                     // { src: 'assets/images/process-photo-2.jpg', alt: 'Process photo 6' },
                     // { src: 'assets/images/process-photo-3.jpg', alt: 'Process photo 7' }
