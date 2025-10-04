@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background-color: #5dabf4;
+    background-color: #fffee9;
 }
 
 a {
@@ -66,6 +66,7 @@ a {
 .grid-blocks {
     display: flex;
     flex-direction: column;
+    background-color: #fffee9;
 }
 
 .logo-top {
@@ -89,8 +90,7 @@ a {
 }
 
 .container-top {
-    /* background: center / contain repeat-x url(assets/images/container-top-bg.png); */
-    background: center / cover no-repeat url(assets/images/bg-version2.svg);
+    background: center / cover no-repeat url(assets/images/container-top-bg.svg);
     height: 185vh;
     width: 100%;
 }
@@ -103,7 +103,6 @@ a {
     max-width: 100vw;
     /* padding-left: 12rem;
     padding-right: 10rem; */
-
 }
 
 .title-block {
@@ -357,7 +356,7 @@ a {
     flex: 33%;
 }
 .box-rounded-toggle {
-    flex: 1%;
+    flex: 0%;
 }
 
 .container-rounded {
@@ -420,12 +419,14 @@ input[type="text"] {
 }
 
 .footer {
-    background-color: #5096ec;
-    background: center / contain no-repeat url(assets/images/img-footer-1.svg);
+    
+    background: center / contain no-repeat url(assets/images/footer-bg-1.svg);
+    background-color: #5dabf4;
     height: 300px;
-    width: auto;
+    width: 100vw;
     display: flex;
     align-items: center;
+    z-index: 99;
 }
 
 .footer-child {
@@ -506,8 +507,7 @@ input[type="text"] {
     }
 
     .container-top {
-        /* background: center / contain repeat-x url(assets/images/container-top-bg.png); */
-        background: center / cover no-repeat url(assets/images/mobile-header-bg.svg);
+        background: center / cover no-repeat url(assets/images/mobile-header-bg-1.svg);
         height: 185vh;
         width: 100%;
     }
@@ -611,12 +611,14 @@ input[type="text"] {
 @media only screen and (max-width: 650px) {
     .signup-text-content {
         font-size: 42px;
+        color: #fe8961;
     }
     .doll-template-box {
         padding-top: 350px;
     }
     .footer {
-        background: center / contain no-repeat url(assets/images/mobile-footer-1.svg);
+        background: center / cover no-repeat url(assets/images/mobile-footer-bg.svg);
+        background-color: #5dabf4;
     }
     .footer-text {
          grid-template-columns: 1fr 5fr; 
@@ -631,4 +633,4 @@ input[type="text"] {
     }
 }
 
-/* things to do - yellow container height and roundness fix, choose outfits fix, linda image sizing fix, click to hear her affirmations button size fix, rounded container bottom margin size fix */
+/* things to do - yellow container height and roundness fix */
