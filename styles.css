@@ -157,7 +157,7 @@ a {
 }
 
 .item-linda {
-    height: 730px;
+    max-height: 730px;
     margin-left: -100px;
 }
 
@@ -537,10 +537,10 @@ input[type="text"] {
     }
 
     .item-linda {
-        max-height: fit-content;
+        /* max-height: fit-content; */
         padding-top: 50px;
         margin-left: 0;
-        max-width: 100%;
+        max-height: 400px;
     }
 
     .linda-text {
@@ -583,6 +583,7 @@ input[type="text"] {
     .container-rounded {
         height: 900px;
         background: center / contain no-repeat url(assets/images/mobile-choose-outifts-2.svg);
+        margin-bottom: 200px;
     }
     /* .box-rounded-toggle {
         flex: 20%;
@@ -595,7 +596,7 @@ input[type="text"] {
 
     .download-template-box {
         /* max-width: 280px; */
-        max-height: 300px;
+        max-height: 900px;
     }
 }
 
@@ -619,3 +620,5 @@ input[type="text"] {
         width: 30%;
     }
 }
+
+/* things to do - yellow container height and roundness fix, choose outfits fix, linda image sizing fix, click to hear her affirmations button size fix, rounded container bottom margin size fix */
