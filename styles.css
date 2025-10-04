@@ -498,6 +498,7 @@ input[type="text"] {
 
     .mailing-list-button {
         top: 45px;
+        right: 20px;
         width: 90px;
         font-size: 16px;
     }
